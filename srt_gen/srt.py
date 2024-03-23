@@ -23,5 +23,5 @@ with open("./srt_source.txt", encoding="utf8") as f:
             idx+=1
 
 print(fstr)
-with open('./str_output.srt',mode='w+') as f:
+with open('./str_output.srt',encoding='utf8',mode='w+') as f:
     f.write(fstr)
